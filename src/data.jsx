@@ -31,7 +31,7 @@ const sdata=
         "id":5,
         "name":"The 100",
         "image":"https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABQ9dgjYgCDO9ElToNMbxy3cUdgBwZwyb4XlKEouxnJATwt3nF4E6AhsdT7dCLoDCKnydYHki_JoaooPHh8xmF4S6rKyUQHiBrtU.jpg?r=799",
-        "description":"Hello Ellonah ! This moves is based on story about a century after Earth was devastated by a nuclear apocalypse, 100 space station residents are sent to the planet to determine whether it's habitable."
+        "description":"A century after Earth was devastated by a nuclear apocalypse, 100 space station residents are sent to the planet to determine whether it's habitable."
     },
 
     {

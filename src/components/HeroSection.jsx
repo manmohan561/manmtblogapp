@@ -5,7 +5,7 @@ import { Button } from "../styles/Button";
 import { useGlobalContext } from "../context";
 
 const HeroSection = () => {
-  const { name, image } = useGlobalContext();
+  const { name, image, desc } = useGlobalContext();
 
   return (
     <Wrapper>
@@ -14,8 +14,7 @@ const HeroSection = () => {
           <p className="hero-top-data">THIS IS ME</p>
           <h1 className="hero-heading">{name}</h1>
           <p className="hero-para">
-            I'm {name}. A Full stack Developer, software developer in MNC. A Full
-            stack Developer, freelancer.
+           {desc}
           </p>
           <Button className="btn hireme-btn">
             <NavLink to="/contact"> Join</NavLink>

@@ -8,6 +8,7 @@ const API = "https://thapareactapi.up.railway.app";
 const intialState = {
   name: "",
   image: "",
+  desc:"",
   services: [],
 };
 
@@ -20,6 +21,7 @@ const AppProvider = ({ children }) => {
       payload: {
         name: "Manam Tech",
         image: "./images/hero.svg",
+        desc:"We are the group to webite builder which will build awsome pages and blogs for you. Feel free to contact us!"
       },
     });
   };
@@ -28,8 +30,9 @@ const AppProvider = ({ children }) => {
     return dispatch({
       type: "ABOUT_UPDATE",
       payload: {
-        name: "Manmohan Tiwary",
+        name: "Ellonah",
         image: "./images/about1.svg",
+        desc:"Hello there, I am a girl from phillipines, the country of islands and beaches. Come here to Ph for fun vacation. I study in Bussiness but I am interseted in building websites so I have joined manmtech. The perople here in the company are awesome and they are happy to assit you as well in building your website. Feel free to join this company. I have great learning experience here in this company."
       },
     });
   };
